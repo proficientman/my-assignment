@@ -3,9 +3,14 @@ h1{
     font-family: 'Source Code Pro', monospace;
     font-size: 70px;
 }
-
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
 p{
-    font-size: 22px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     line-height: 150%;
 }
 
@@ -34,20 +39,19 @@ p{
 
 .div-width{
     width: 50%;
-    padding: 125px;
 }
 
 .div-width img{
-    width: 100%;
+    width: 75%;
 }
 
 .flexible-container{
     display: flex;
-    margin-block-end: 10px;
+    margin-bottom: -60px;
+    padding: 125px;
 }
 
 /* Second_Section */
-
 
 .h2-text{
     font-size: 45px;
@@ -56,11 +60,9 @@ p{
 }
 
 .experience-item{
-    width: 20%;
-    margin-left: 5%;
-    margin-right: 5px;
-    padding-left: 25px;
-    border-radius: 75px;
+    flex: 1;
+    margin: 25px;
+    border-radius: 60px;
     text-align-last: left;
 }
 
@@ -92,31 +94,28 @@ p{
 }
 
 
-/* Third Section */
+/* Third Section & Fourth Section*/
 
 .div-width-1{
-    width: 25% 75%;
-    padding: 75px 100px;
+    width: 40%;
 }
 
 .div-width-1 img{
-    width: 45%;
+    width: 90%;
 }
 
-
-/*Fourth Section*/
-
-
-.div-width-2{
-    width: 75% 25%;
-    padding-left: 50px;
-    padding-right: 50px;
+.div-width-1-2{
+    width: 60%;
 }
 
-.div-width-2 img{
-    width: 45%;
-    
+.div-width-1-2 h3{
+    font-size: 40px;
 }
+
+.div-width-1-2 p{
+    font-size: 30px;
+}
+
 
 /* Fifth Section */
 
@@ -124,6 +123,13 @@ p{
     display: flex;
     margin-block-end: 20px;
 }
+
+.center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
 
 /*footer*/
 
