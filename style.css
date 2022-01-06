@@ -1,0 +1,140 @@
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 70px;
+}
+
+p{
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.mission{
+    color: rgb(201, 86, 86);
+}
+
+.left-pad{
+    border-left: 5px solid;
+    border-color: red;
+    border-radius: 4px;
+}
+
+#text-pad{
+    padding-left: 15px;
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 12px 20px;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.div-width{
+    width: 50%;
+    padding: 125px;
+}
+
+.div-width img{
+    width: 100%;
+}
+
+.flexible-container{
+    display: flex;
+    margin-block-end: 10px;
+}
+
+/* Second_Section */
+
+
+.h2-text{
+    font-size: 45px;
+    text-align: center;
+    color: cadetblue;
+}
+
+.experience-item{
+    width: 20%;
+    margin-left: 5%;
+    margin-right: 5px;
+    padding-left: 25px;
+    border-radius: 75px;
+    text-align-last: left;
+}
+
+.experience-item img{
+    width: 35%;
+}
+
+.experience-item p{
+    font-size: 25px;
+}
+
+.experience-item h3{
+    font-size: 30px;
+}
+
+#first-item{
+    padding: 25px;
+    background-color: rgb(128, 215, 241);
+}
+
+#second-item{
+    padding: 25px;
+    background-color: rgb(142, 255, 217);
+}
+
+#third-item{
+    padding: 25px;
+    background-color: khaki;
+}
+
+
+/* Third Section */
+
+.div-width-1{
+    width: 25% 75%;
+    padding: 75px 100px;
+}
+
+.div-width-1 img{
+    width: 45%;
+}
+
+
+/*Fourth Section*/
+
+
+.div-width-2{
+    width: 75% 25%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.div-width-2 img{
+    width: 45%;
+    
+}
+
+/* Fifth Section */
+
+.flexible-container-2{
+    display: flex;
+    margin-block-end: 20px;
+}
+
+/*footer*/
+
+
+
+footer {
+    background-color: rgb(17, 39, 114);
+    padding: 20px;
+    text-align: center;
+    color:white;
+}
+#foot {
+    color: rgb(164, 163, 175);
+}
